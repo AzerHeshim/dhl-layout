@@ -72,6 +72,7 @@ const routes: Routes = [
   { path:  'fursetler', component: FursetlerComponent},
   { path:  'furset', component: FursetlerInsideComponent},
   { path:  'kiv', component: KivComponent},
+  { path:  'termminology', component: TerminologyComponent},
 ];
 
 @NgModule({

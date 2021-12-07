@@ -170,7 +170,13 @@
         <div class="form_item">
           <p class="form_head">Göndərən şirkət və ya fiziki şəxs</p>
           <div class="two_inputs">
-            <input class="form_input" type="text" placeholder="Ad, soyad *">
+            <div class="validating">
+            <input class="form_input error" type="text" placeholder="Ad, soyad *">
+              <p class="d-flex align-items--center">
+                <img class="error_icon" src="assets/icons/error.svg" alt="">
+                Form field error text.
+              </p>
+            </div>
             <input class="form_input" type="text" placeholder="Şirkət adı">
           </div>
         </div>
