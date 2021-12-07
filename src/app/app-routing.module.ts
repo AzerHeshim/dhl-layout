@@ -29,9 +29,15 @@ import {DownloadsComponent} from "./downloads/downloads.component";
 import {ForCorporatesComponent} from "./for-corporates/for-corporates.component";
 import {ContactComponent} from "./contact/contact.component";
 import {CalculateComponent} from "./calculate/calculate.component";
+import {GomrukResmilesdirComponent} from "./gomruk-resmilesdir/gomruk-resmilesdir.component";
+import {QadagalarComponent} from "./qadagalar/qadagalar.component";
+import {ListComponent} from "./list/list.component";
+import {FursetlerComponent} from "./fursetler/fursetler.component";
+import {FursetlerInsideComponent} from "./fursetler-inside/fursetler-inside.component";
+import {KivComponent} from "./kiv/kiv.component";
 
 const routes: Routes = [
-  { path:  '', component:  HomeComponent},
+  { path:  '', component:  ListComponent},
   { path:  'notfound', component:  NotFoundComponent},
   { path:  'about', component:  AboutCompanyComponent},
   { path:  'vacancies', component:  VacanciesComponent},
@@ -60,6 +66,12 @@ const routes: Routes = [
   { path:  'for-corporates', component: ForCorporatesComponent},
   { path:  'contact', component: ContactComponent},
   { path:  'calculate', component: CalculateComponent},
+  { path:  'gomruk-resmilesdir', component: GomrukResmilesdirComponent},
+  { path:  'qadagalar', component: QadagalarComponent},
+  { path:  'home', component: HomeComponent},
+  { path:  'fursetler', component: FursetlerComponent},
+  { path:  'furset', component: FursetlerInsideComponent},
+  { path:  'kiv', component: KivComponent},
 ];
 
 @NgModule({

@@ -33,6 +33,12 @@ import { DownloadsComponent } from './downloads/downloads.component';
 import { ForCorporatesComponent } from './for-corporates/for-corporates.component';
 import { ContactComponent } from './contact/contact.component';
 import { CalculateComponent } from './calculate/calculate.component';
+import { GomrukResmilesdirComponent } from './gomruk-resmilesdir/gomruk-resmilesdir.component';
+import { QadagalarComponent } from './qadagalar/qadagalar.component';
+import { ListComponent } from './list/list.component';
+import { FursetlerComponent } from './fursetler/fursetler.component';
+import { FursetlerInsideComponent } from './fursetler-inside/fursetler-inside.component';
+import { KivComponent } from './kiv/kiv.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +72,13 @@ import { CalculateComponent } from './calculate/calculate.component';
     DownloadsComponent,
     ForCorporatesComponent,
     ContactComponent,
-    CalculateComponent
+    CalculateComponent,
+    GomrukResmilesdirComponent,
+    QadagalarComponent,
+    ListComponent,
+    FursetlerComponent,
+    FursetlerInsideComponent,
+    KivComponent
   ],
   imports: [
     BrowserModule,
