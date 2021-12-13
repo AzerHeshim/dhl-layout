@@ -35,6 +35,7 @@ import {ListComponent} from "./list/list.component";
 import {FursetlerComponent} from "./fursetler/fursetler.component";
 import {FursetlerInsideComponent} from "./fursetler-inside/fursetler-inside.component";
 import {KivComponent} from "./kiv/kiv.component";
+import {KorporativUcunComponent} from "./korporativ-ucun/korporativ-ucun.component";
 
 const routes: Routes = [
   { path:  '', component:  ListComponent},
@@ -72,7 +73,7 @@ const routes: Routes = [
   { path:  'fursetler', component: FursetlerComponent},
   { path:  'furset', component: FursetlerInsideComponent},
   { path:  'kiv', component: KivComponent},
-  { path:  'termminology', component: TerminologyComponent},
+  { path:  'korporativ', component: KorporativUcunComponent},
 ];
 
 @NgModule({

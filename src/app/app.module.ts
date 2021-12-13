@@ -39,6 +39,7 @@ import { ListComponent } from './list/list.component';
 import { FursetlerComponent } from './fursetler/fursetler.component';
 import { FursetlerInsideComponent } from './fursetler-inside/fursetler-inside.component';
 import { KivComponent } from './kiv/kiv.component';
+import { KorporativUcunComponent } from './korporativ-ucun/korporativ-ucun.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { KivComponent } from './kiv/kiv.component';
     ListComponent,
     FursetlerComponent,
     FursetlerInsideComponent,
-    KivComponent
+    KivComponent,
+    KorporativUcunComponent
   ],
   imports: [
     BrowserModule,

@@ -1177,6 +1177,9 @@ label .arrow-up { display: none; }
   justify-content: center;
   color: #fff;
 }
+.justify-content--flex-end{
+  justify-content: flex-end !important;
+}
 
 .form_submit_parent{
   width: 100%;
@@ -1184,6 +1187,20 @@ label .arrow-up { display: none; }
   align-items: center;
   justify-content: center;
   margin-top: 80px;
+}
+.m-0{
+  margin: 0 !important;
+}
+.success_message{
+  margin-top: 60px;
+}
+@media (max-width: 768px){
+  .success_message{
+  display: block;
+  }
+  .success_l{
+    margin-bottom: 40px;
+  }
 }
 .single_input{
   margin-bottom: 34px;
@@ -1668,5 +1685,212 @@ justify-content: center;
   .kiv_item{
     width: 100%;
     height: 288px;
+  }
+}
+
+
+.collap_faq{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  cursor: pointer;
+  padding: 18px;
+  background: #FFFFFF;
+  /* Dark/4 */
+
+  border: 1px solid #8C8C8C;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.fieldsetContainersFaq {
+  height: 0;
+  overflow: hidden;
+  transition: height 400ms linear;
+}
+
+#colllapse {
+  display: none;
+}
+
+#colllapse:checked ~ .fieldsetContainersFaq {
+  height: auto;
+  //margin-top: 15px;
+  padding: 18px;
+  background: none;
+}
+#colllapse:checked ~ .collap_faq{
+  background: $mainBg;
+}
+label .arrow-dn { display: inline-block; }
+label .arrow-up { display: none; }
+
+#colllapse:checked ~ label .arrow-dn { display: none; }
+#colllapse:checked ~ label .arrow-up { display: inline-block; }
+.collap_desc{
+  font-size: $rb-15;
+  line-height: $rb-24;
+}
+
+.collapsible_faq{
+  margin-top: 30px;
+}
+
+.toggle_collapse{
+  font-size: 38px;
+}
+.collapsible{
+  margin-bottom: 16px;
+}
+
+.download_item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #8C8C8C;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.download_item_selected{
+  background: $mainBg;
+  border: none;
+}
+.download_action{
+  display: flex;
+  align-items: center;
+}
+.download_name{
+  font-size: $rb-18;
+  line-height: $rb-24;
+  color: $mainBg;
+  margin-right: 20px;
+}
+.download_name_selected{
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .download_item{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .collap_head{
+    margin-bottom: 70px;
+  }
+}
+.corporative{
+  height: 500px;
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.corporative_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 40px 0;
+}
+
+.corporative_header{
+  font-family: $r_medium;
+  font-size: $rb-36;
+  margin-bottom: 46px;
+}
+.yellow{
+  color: $mainBg;
+}
+.corporative_desc{
+  font-size: $rb-16;
+  line-height: $rb-24;
+  margin: 30px 0;
+}
+.corporative_contact{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.phone{
+  margin-right: 30px;
+}
+.phone_icon{
+  margin-right: 16px;
+}
+.contact_form_head{
+  font-size: $rb-24;
+  margin-bottom: 60px;
+}
+
+.form_first_step_corp{
+  width: 70%;
+  margin: 0 auto;
+}
+.corp_head{
+  text-align: center;
+}
+@media (max-width: 768px) {
+
+  .form_first_step_corp{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .corporative_content{
+    grid-template-columns: 1fr;
+    padding: 30px 12px;
+  }
+  .corporative_header{
+    font-size: 24px;
+  }
+}
+
+.contact_address{
+  background: #F6F6F9;
+  border-radius: 4px;
+  padding: 60px 30px;
+  height: fit-content;
+}
+
+.address_name{
+  font-family: $r_bold;
+  font-size: $rb-24;
+  margin-bottom: 26px;
+  text-align: center;
+}
+.address_item{
+  margin-bottom: 40px;
+}
+.form_textarea{
+  height: 116px;
+}
+
+.message{
+  margin-bottom: 10px;
+}
+.contact_content{
+  margin-top: 100px;
+}
+.contact_banner{
+  height: 450px
+}
+.address_item:last-child{
+  margin-bottom: 0;
+}
+.check_icon{
+  margin-right: 16px;
+}
+@media (max-width: 768px) {
+  .contact_banner{
+    height: 200px;
+  }
+  .contact_content{
+    margin: 0;
+  }
+  .contact_address{
+    margin-bottom: 60px;
   }
 }
