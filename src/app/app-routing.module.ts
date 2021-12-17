@@ -36,6 +36,10 @@ import {FursetlerComponent} from "./fursetler/fursetler.component";
 import {FursetlerInsideComponent} from "./fursetler-inside/fursetler-inside.component";
 import {KivComponent} from "./kiv/kiv.component";
 import {KorporativUcunComponent} from "./korporativ-ucun/korporativ-ucun.component";
+import {MobileMenuComponent} from "./mobile-menu/mobile-menu.component";
+import {CalculateDocComponent} from "./calculate-doc/calculate-doc.component";
+import {AddedDocumentComponent} from "./added-document/added-document.component";
+import {CalcResultComponent} from "./calc-result/calc-result.component";
 
 const routes: Routes = [
   { path:  '', component:  ListComponent},
@@ -74,6 +78,10 @@ const routes: Routes = [
   { path:  'furset', component: FursetlerInsideComponent},
   { path:  'kiv', component: KivComponent},
   { path:  'korporativ', component: KorporativUcunComponent},
+  { path:  'mobile-menu', component: MobileMenuComponent},
+  { path:  'calculate-doc', component: CalculateDocComponent},
+  { path:  'added-doc', component: AddedDocumentComponent},
+  { path:  'calc-result', component: CalcResultComponent},
 ];
 
 @NgModule({

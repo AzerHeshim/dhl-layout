@@ -40,6 +40,10 @@ import { FursetlerComponent } from './fursetler/fursetler.component';
 import { FursetlerInsideComponent } from './fursetler-inside/fursetler-inside.component';
 import { KivComponent } from './kiv/kiv.component';
 import { KorporativUcunComponent } from './korporativ-ucun/korporativ-ucun.component';
+import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
+import { CalculateDocComponent } from './calculate-doc/calculate-doc.component';
+import { AddedDocumentComponent } from './added-document/added-document.component';
+import { CalcResultComponent } from './calc-result/calc-result.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +84,11 @@ import { KorporativUcunComponent } from './korporativ-ucun/korporativ-ucun.compo
     FursetlerComponent,
     FursetlerInsideComponent,
     KivComponent,
-    KorporativUcunComponent
+    KorporativUcunComponent,
+    MobileMenuComponent,
+    CalculateDocComponent,
+    AddedDocumentComponent,
+    CalcResultComponent
   ],
   imports: [
     BrowserModule,
