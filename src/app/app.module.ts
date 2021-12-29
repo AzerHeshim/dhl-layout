@@ -44,6 +44,7 @@ import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
 import { CalculateDocComponent } from './calculate-doc/calculate-doc.component';
 import { AddedDocumentComponent } from './added-document/added-document.component';
 import { CalcResultComponent } from './calc-result/calc-result.component';
+import { AviaReceiptComponent } from './avia-receipt/avia-receipt.component';
 
 @NgModule({
   declarations: [
@@ -88,7 +89,8 @@ import { CalcResultComponent } from './calc-result/calc-result.component';
     MobileMenuComponent,
     CalculateDocComponent,
     AddedDocumentComponent,
-    CalcResultComponent
+    CalcResultComponent,
+    AviaReceiptComponent
   ],
   imports: [
     BrowserModule,

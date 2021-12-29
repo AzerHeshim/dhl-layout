@@ -40,6 +40,7 @@ import {MobileMenuComponent} from "./mobile-menu/mobile-menu.component";
 import {CalculateDocComponent} from "./calculate-doc/calculate-doc.component";
 import {AddedDocumentComponent} from "./added-document/added-document.component";
 import {CalcResultComponent} from "./calc-result/calc-result.component";
+import {AviaReceiptComponent} from "./avia-receipt/avia-receipt.component";
 
 const routes: Routes = [
   { path:  '', component:  ListComponent},
@@ -82,6 +83,7 @@ const routes: Routes = [
   { path:  'calculate-doc', component: CalculateDocComponent},
   { path:  'added-doc', component: AddedDocumentComponent},
   { path:  'calc-result', component: CalcResultComponent},
+  { path:  'avia-receipt', component: AviaReceiptComponent},
 ];
 
 @NgModule({
