@@ -41,6 +41,8 @@ import {CalculateDocComponent} from "./calculate-doc/calculate-doc.component";
 import {AddedDocumentComponent} from "./added-document/added-document.component";
 import {CalcResultComponent} from "./calc-result/calc-result.component";
 import {AviaReceiptComponent} from "./avia-receipt/avia-receipt.component";
+import {SuccessAviaComponent} from "./success-avia/success-avia.component";
+import {TrackingComponent} from "./tracking/tracking.component";
 
 const routes: Routes = [
   { path:  '', component:  ListComponent},
@@ -84,6 +86,8 @@ const routes: Routes = [
   { path:  'added-doc', component: AddedDocumentComponent},
   { path:  'calc-result', component: CalcResultComponent},
   { path:  'avia-receipt', component: AviaReceiptComponent},
+  { path:  'avia-success', component: SuccessAviaComponent},
+  { path:  'tracking', component: TrackingComponent},
 ];
 
 @NgModule({

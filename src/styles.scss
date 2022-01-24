@@ -3287,3 +3287,345 @@ label .arrow-up { display: none; }
     margin: 0 auto;
   }
 }
+
+
+////////////////SPRINT 6///////////
+.pay_with_card{
+  width: 92%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+  background: #fff;
+
+}
+.card_head{
+  display: flex;
+  justify-content: end;
+}
+.card_content{
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  gap: 56px;
+}
+
+.total_head{
+  font-size: $rb-18;
+  font-family: $r_medium;
+  margin-bottom: 24px;
+}
+
+.total_item{
+  width: 100%;
+  border-bottom: 1px solid #8C8C8C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.total_item_head, .total_item_currency, .total_item_amount{
+  font-size: $rb-16;
+  line-height: $rb-16;
+  margin: 0;
+}
+.total_item_head{
+  width: 60%;
+}
+.total_last{
+  margin-top: 50px;
+}
+.privacy_head{
+  font-size: $rb-24;
+  margin-bottom: 16px;
+}
+.privacy_part{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.privacy_item{
+  margin-bottom: 12px;
+}
+@media (max-width: 768px) {
+  .card_content {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+    gap: 24px;
+  }
+  .privacy_part{
+    width: 100%;
+  }
+}
+
+.success_name{
+  font-size: 24px;
+  margin: 0;
+}
+
+.building_icon{
+  width: 200px;
+}
+.suces_icon{
+  width: 20px;
+  margin-right: 16px;
+}
+.mb-16px{
+  margin-bottom: 16px;
+}
+
+.form_submit{
+  position: relative;
+  img{
+    margin-right: 8px;
+  }
+}
+
+.print{
+  background: #fff;
+    color: #000;
+
+  margin-left: 16px;
+}
+.submit_pos{
+  position: relative;
+}
+.success_contact_items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0;
+  margin-top: 32px;
+}
+
+.success_item{
+  height: 55px;
+  align-items: center;
+  border-right: 1px solid #8C8C8C;
+  justify-content: center;
+}
+.success_item:last-child{
+  border: none
+}
+@media (max-width: 768px) {
+  .success_check{
+    display: none;
+  }
+  .success_avia{
+    padding: 40px 16px;
+  }
+  .success_contact_items{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 32px;
+  }
+  .success_item{
+    height: 55px;
+    align-items: center;
+    border-right: none;
+    justify-content: start;
+  }
+  .success_desc{
+    margin-bottom: 24px;
+  }
+  .form_submit_parent{
+    margin-top: 24px;
+  }
+}
+
+
+.tracking{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.tracking_desc{
+  margin-top: 60px;
+  margin-bottom: 12px;
+}
+
+.tracking_input{
+  margin: 0 0 80px;
+}
+
+.tracking_info{
+  margin-bottom: 20px;
+}
+
+.avia_card{
+  display: flex;
+  align-items: center;
+  padding: 26px;
+  border: 1px solid #8C8C8C;
+  margin-bottom: 16px;
+  img{
+    margin-right: 48px;
+  }
+
+}
+.avia_id{
+  font-size: $rb-24;
+  margin-bottom: 8px;
+  font-family: $r_medium;
+}
+.direction{
+  p{
+    font-size: $rb-16;
+  }
+  img{
+    margin: 0 8px;
+  }
+}
+.more{
+  background: none;
+  border: 0.5px solid #D40511;
+  border-radius: 4px;
+  box-shadow: none;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 30px;
+  font-size: $rb-16;
+  color: #D40511;
+}
+
+
+.plane_icon{
+  margin-right: 32px;
+}
+
+.avia_tracking_map{
+  margin-top: 32px;
+}
+
+.tracking_map_progress{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7px;
+  margin-top: 30px;
+}
+.progress_completed{
+  height: 6px;
+  background: $green;
+  border-radius: 4px;
+}
+
+.progress_not_completed{
+  height: 6px;
+  border-radius: 4px;
+  background: #D2D2D2;
+}
+
+.tracking_where{
+  p{
+    font-size: $rb-16;
+    font-family: $r_bold;;
+    margin-right: 16px;
+  }
+  p:last-child{
+    margin-left: 16px;
+  }
+display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+
+.tracking_div{
+  box-shadow: 0px 2px 26px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  margin-top: 60px;
+  padding: 30px;
+  .track_head{
+    font-size: $rb-24;
+    font-family: $r_medium;
+    margin-bottom: 56px;
+  }
+}
+.tracking_icon{
+  width: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.tracking_item_data{
+  width: 88%;
+  border-bottom: 1px solid #8C8C8C;
+  padding-bottom: 30px;
+}
+
+.connecter{
+  width: 2px;
+  height: 150px;
+  background: #FFCC00;
+}
+
+.dispatch_day{
+  font-size: $rb-16;
+  font-family: $r_light;
+  margin-bottom: 2px;
+}
+
+.dispatch_date{
+  font-size: $rb-16;
+  font-family: $r_bold;
+  margin-bottom: 20px;
+}
+
+.status_data{
+  margin-bottom: 20px;
+  p{
+   font-size: $rb-16;
+    margin-right: 16px;
+  }
+}
+
+.status_delivered{
+  color: $green;
+}
+
+.status_name{
+  margin-left: 16px;
+}
+
+.tracking_map{
+  font-size: $rb-16;
+}
+
+@media (max-width: 768px) {
+
+  .tracking {
+    width: 100%;
+  }
+  .tracking_input{
+    margin-bottom: 40px;
+  }
+  .avia_card{
+    flex-direction: column;
+    align-items: start;
+  }
+  .more{
+    width: 100%;
+    margin-top: 16px;
+  }
+  .tracking_icon{
+    width: 13%;
+
+  }
+  .tracking_item_data{
+    width: 87%;
+  }
+  .tracking_div{
+    padding: 16px;
+  }
+  .connecter{
+    height: 120px;
+  }
+}
